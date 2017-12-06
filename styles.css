@@ -1,0 +1,22 @@
+
+body {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: rgb(215, 215, 215);
+	color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+ul { 
+	list-style-type: none; 
+}
+
