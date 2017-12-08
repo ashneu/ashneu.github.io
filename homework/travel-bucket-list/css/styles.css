@@ -1,0 +1,55 @@
+h1 {
+	text-align: center;
+	background-color: rgb(9, 202, 159);
+	color: white;
+	padding: 20px;
+	margin: 0px;
+
+}
+
+span {
+	padding: 25px;
+}
+
+h4 {
+	text-align: center;
+	background-color: rgb(243, 243, 243);
+	padding: 20px;
+	margin: 0px;
+
+}
+
+.maui {
+	text-align: center;
+	background-color: rgb(196, 222,252);
+	margin: 0px 0px 30px 0px;
+	padding: 10px 0px;
+
+}
+
+.reykjavik {
+	text-align: center;
+	background-color: rgb(194, 242, 247);
+	padding: 10px 0px;
+	margin: 0px 0px 30px 0px;
+
+}
+
+.aspen {
+	text-align: center;
+	background-color: rgb(196, 222,252);
+	margin: 0px;
+	padding: 10px 0px;
+
+}
+
+.footer {
+	text-align: center;
+	background-color: rgb(243, 243, 243);
+	padding: 20px;
+	margin: 0px;
+}
+
+body {
+	background-color: rgb(243, 243, 243);
+}
