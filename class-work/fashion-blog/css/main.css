@@ -1,0 +1,78 @@
+
+span {
+	padding-bottom: 30px;
+	text-decoration: underline;
+}
+.sartre-name {
+	color: #dd0000;
+	padding: 30px 0px 10px 0px;
+	font-size: 45px;
+}
+
+
+.better {
+	color: black;
+	font-size: 25px;
+	padding-bottom: 10px;
+
+}
+
+.date {
+	color: #cccccc;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.brooklyn {
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+.brooklynpic {
+	padding-top: 10px;
+}
+
+article {
+	padding: 10px 0px 20px 0px;
+}
+
+
+
+.secondarticle {
+	padding-bottom: 10px 0px 20px 0px;
+}
+
+.copyright {
+	color: #bbbbbb;
+	padding: 10px 0px 30px 0px;
+}
+
+nav {
+	color: #dddddd;
+}
+
+footer {
+	color: #dd0000;
+	
+}
+.container {
+	width: 720px;
+	padding: 60px;
+	text-align: left;
+	font-family: lato, serif;
+}
+
+#continues {
+	text-align: right;
+	color: #dd0000;
+	padding-bottom: 30px;
+}
+
+.divider {
+	color: #dddddd;
+}
+
+.line {
+	width: 800px;
+
+}
