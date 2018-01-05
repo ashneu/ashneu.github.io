@@ -1,22 +1,81 @@
-
 body {
-	text-align: center;
-	font-family: 'Julius Sans One', sans-serif;
-	background-color: rgb(215, 215, 215);
-	color: rgb(255, 255, 255);
+	background: url(images/oceanbackground3.jpg);
+	background-size: cover;
+}
+
+.container {
+	margin-bottom: 200px;
 }
 
 h1 {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: lighter;
 }
+
+span {
+	text-decoration: line-through;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
 
 h2 {
+	text-align: center;
 	color: white;
-    text-shadow: 2px 2px 4px #000000;
+	font-family: 'Julius Sans One', sans-serif;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+	width: 34%;
+	margin: 0 auto;
+	
 }
 
-ul { 
-	list-style-type: none; 
+.trashpics {
+	display: flex;
+	justify-content: space-between;
+	
+
+
+
 }
 
+.cigpic {
+	max-width: 25%;
+
+}
+
+.plasticpic {
+	max-width: 25%;
+}
+
+.foampic {
+	max-width: 25%;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cigarette {
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+	max-width: 25%;
+}
+
+.plastic {
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+	max-width: 25%;
+}
+
+.foam {
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+	max-width: 25%;
+}
+
+/* do radial-gradient with images
