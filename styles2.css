@@ -7,7 +7,7 @@ body {
 	cursor: url(images/scubasteve1.png), auto;
 }
 
-.container {
+.container{
 	margin-bottom: 150px;
 }
 
@@ -31,20 +31,13 @@ span {
 h2 {
 	text-align: center;
 	color: white;
-	font-size: 30px;
 	font-family: 'Original Surfer', cursive;
-	width: 34%;
-	margin: 0 auto;
+	font-size: 30px;
 	text-shadow: 2px 2px 4px #000000;
 	box-shadow: 0 0 5px rgba(0,0,0,.8);
-
+	width: 40%;
+	margin: 0 auto;
 	
-}
-
-
-.trashpics {
-	display: flex;
-	justify-content: space-around;
 }
 
 img {
@@ -52,49 +45,45 @@ img {
 }
 
 img:hover {
-	opacity: .8;
-}
-
-
-.cigpic {
-
-}
-
-.plasticpic {
-
-
-}
-
-.foampic {
-		
-
-}
+  transition: 0.70s;
+  transform: rotate(360deg);
+} 
 
 .wrapper {
 	display: flex;
 	justify-content: space-around;
-}
-
-.cigarette {
-	color: white;
-	font-family: 'Comfortaa', cursive;
-	max-width: 25%;
-	box-shadow: 10px 5px 5px white;	
+	margin-top: 50px;
+	margin-left: 12%;
+	margin-right: 12%;
 
 }
 
 
-.plastic {
+
+.wrapper2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0px;
+}
+
+
+.nav {
+	font-family: 'Original Surfer', cursive;
+	font-size: 20px;
 	color: white;
-	font-family: 'Comfortaa', cursive;
-	max-width: 25%;
+	text-align: center;
+	box-shadow: 0 0 5px rgba(0,0,0,1);
+	padding-bottom: 15px;
+	margin: 0px 300px 20px 300px;
 	box-shadow: 10px 5px 5px white;
 }
 
-.foam {
+a {
 	color: white;
-	font-family: 'Comfortaa', cursive;
-	max-width: 25%;
-	box-shadow: 10px 5px 5px white;
+	font-size: 20px;
 }
 
+#candd {
+	text-shadow: 2px 2px 4px #000000;
+
+}
