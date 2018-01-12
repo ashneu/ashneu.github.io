@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.forms {
+	display: flex;
+	justify-content: space-around;
+}
+
+h3 {
+	text-align: center;
+}
