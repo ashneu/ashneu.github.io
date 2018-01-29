@@ -1,0 +1,79 @@
+body {
+	background: url(../images/oceanbackground1.jpg);
+	background-size: cover;
+}
+
+.cursor {
+	cursor: url(../images/scubasteve1.png), auto;
+}
+
+.container {
+	margin-bottom: 150px;
+}
+
+h1 {
+	font-family: 'Original Surfer', cursive;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-weight: lighter;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+	text-decoration: line-through;
+	font-family: 'Original Surfer', cursive;
+	font-size: 70px;
+	font-weight: lighter;
+	color: white;
+
+}
+
+
+
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: 'Original Surfer', cursive;
+	width: 34%;
+	margin: 0 auto;
+	text-shadow: 2px 2px 4px #000000;
+	box-shadow: 0 0 5px rgba(0,0,0,.8);
+
+	
+}
+
+
+.trashpics {
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	border-radius: 20px;
+}
+
+
+
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.cigarette, 
+.plastic,
+.foam {
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	max-width: 25%;
+	box-shadow: 10px 5px 5px white;	
+	display: none;
+
+}
+
+
+
+
