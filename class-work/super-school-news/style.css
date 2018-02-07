@@ -1,0 +1,79 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: yellow;
+	overflow: hidden;
+	padding: 10px 25px;
+}
+
+header h1 {
+	float: left;
+	font-size: 30px;
+
+}
+
+header nav {
+	margin-top: 6px;
+	float: right;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+section {
+	background-color: black;
+	box-sizing: border-box;
+}
+
+article {
+	background-color: white;
+
+	
+}
+
+/* targets the 1st article; nth-child(2) would target the 2nd article*/
+article:nth-child(1) {
+	margin-right: 10%;
+	float: right;
+	box-sizing: border-box;
+	padding: 40%;
+}
+article:nth-child(2) {
+	margin-right: 10%;
+	float: left;
+	padding:40%;
+	box-sizing: border-box;
+}
+
+article h1 {
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0;
+}
+@media screen and (max-width: 768px) {
+	header h1 {
+		float: none;
+	}
+  header nav {
+   		 float: none;
+  }
+  header nav a {
+  	display: block;
+  	margin-left: 0;
+  	border: 1px solid black;
+  	padding: 10px;
+  }
+  article:nth-child(1) {
+  	margin-right: 0px;
+  }
+  article {
+  	width: 100%;
+  }
+}

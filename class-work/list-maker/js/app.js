@@ -17,7 +17,40 @@
 // 4. handleClick should call a separate function, named appendItem, and pass it the variable newItem
 // 5. handleClick should then clear the text inside of #item
 // 6. Finally, write the function, appendItem (see above)
-$('#clickme').click(handleClick)
+$('#clickme').click(handleClick);
+
+$('#item').keypress(handleEnterKeyPress);
+
+function handleEnterKeyPress(evt) {
+	if (evt.keyCode === 13) {
+		handleClick();
+	}
+	
+}
+function handleClick() {
+	var newItem = $('#item').val();
+
+	if (newItem === '') {
+		alert('you did not enter anything!');
+	} else {
+		appendItem(newItem);
+		$('#item').val('');
+		$('item').focus();
+	}
+	
+}
+
+function appendItem(newItem) {
+	var listItem = '<li>' + newItem + '</li>';
+	$('#list').append(listItem);
+}
+
+
+
+
+
+
+/*$('#clickme').click(handleClick)
 
 	function handleClick () {
   var newItem = $('#item').val();
@@ -30,3 +63,4 @@ $('#clickme').click(handleClick)
   $('#list').append(newItem);
 
  }
+ */

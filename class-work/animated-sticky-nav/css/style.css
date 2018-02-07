@@ -1,0 +1,25 @@
+.wrapper {
+	text-align: center;
+}
+
+header {
+	background: blue;
+	font-size: 75px;
+	position: fixed;
+	width: 100%;
+	transition: all 2s;
+	height: 75px;
+	
+}
+
+img {
+	display: block;
+}
+
+
+
+.header-offset {
+	  background: red;
+	  font-size: 30px;
+	  
+	}

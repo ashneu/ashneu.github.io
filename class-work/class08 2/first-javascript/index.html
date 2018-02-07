@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our First JavaScript</title>
+</head>
+<body>
+
+	<h1 class="some-class">Hello, World!</h1>
+	<p>Paragraph #1</p>
+	<p class="some-class">Paragraph #2</p>
+	<script type="text/javascript">
+		alert("This is very annoying");
+		document.write("ashley " + "neu");
+
+		var num1 = 10 * 10;
+		document.write(num1);
+
+		var myName = "ashley" + "neu";
+		document.write(myName);
+
+		var num2 = 100 + 100,
+			num3 = 100 - 2,
+			num4 = 100 + 6;
+
+		document.write("     ");
+		document.write(10 * 10);
+		document.write("     ")
+
+		document.write(50 + 17);
+
+		document.write(50 / 10);
+
+	
+		function hello () {
+	  	var greeting = 'hello!';
+
+	  	greeting = 'hello, world!';
+
+	  	alert(greeting);
+		}
+
+		hello();
+
+		function greeting(text, name) {
+			var myMessage = name + " is saying: " + text;
+			alert(myMessage);
+		}
+
+		greeting("hiiii", "adrienne");
+		greeting("hello!!!", "bob");
+		greeting("byeeee!", "ashley");
+
+		document.querySelector('h1').style.color = "red";
+
+		document.querySelectorAll('p').style.color = "blue";
+		document.querySelectorAll('.some-class');
+
+
+		// i am a comment
+		/* i am a long
+		comment */
+	</script>
+</body>
+</html>

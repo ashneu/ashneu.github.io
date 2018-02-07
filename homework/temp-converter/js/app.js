@@ -1,7 +1,9 @@
+//look at codepen warmup class 13
+
 $('#click-me-1').click(convert2c);
 
-function convert2c () {
-	var numberInform = $('input').html();
+	function convert2c () {
+	var numberInform = $('input').val();
 	numberInform = parseInt(numberInform);
 
 	numberInform = (numberInform - 32) / 1.8;
@@ -9,7 +11,7 @@ function convert2c () {
 	$('#celsiusValue').html(numberInform);
 
 
-	$('#click-me-2').click(convert2f)
+$('#click-me-2').click(convert2f)
 
 	function convert2f () {
 		var numberInform = $('input').html();
