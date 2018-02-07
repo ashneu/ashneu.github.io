@@ -52,27 +52,26 @@ h2 {
 }
 
 img {
-	border-radius: 20px;
+	height: 300px;
+  	width: 300px;
+	border-radius: 50%;
 }
 
 
 
-
-.wrapper {
-	display: flex;
-	justify-content: space-around;
-}
-
-.cigarette, 
-.plastic,
-.foam {
+.cigarette,
+.foam,
+.plastic {
 	color: white;
 	font-family: 'Comfortaa', cursive;
 	max-width: 25%;
 	box-shadow: 10px 5px 5px white;	
-	display: none;
+	font-size: 30px;
 
 }
+
+
+
 
 
 

@@ -20,11 +20,14 @@ h1 {
 	text-shadow: 2px 2px 4px #000000;
 }
 
-span {
+
+.hinge  {
+	animation-delay: 3s;
 	text-decoration: line-through;
 	font-family: 'Original Surfer', cursive;
 	font-size: 70px;
 	font-weight: lighter;
+	display: inline-block;
 }
 
 
@@ -41,7 +44,7 @@ h2 {
 }
 
 img {
-	border-radius: 20px;
+	border-radius: 50%;
 }
 
 img:hover {
@@ -85,10 +88,16 @@ img:hover {
 	box-shadow: 10px 5px 5px white;
 }
 
+.nav:hover {
+    transform: scale(1.3); 
+}
+
 a {
 	color: white;
 	font-size: 20px;
 }
+
+
 
 #candd {
 	text-shadow: 2px 2px 4px #000000;

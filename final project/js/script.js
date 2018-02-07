@@ -1,36 +1,16 @@
-/* 1)the trash fades out like i want but when the facts fade in, i'm not sure how to replace them in the same spot 
-as the trash..they currently show up below and you have to scroll. I tried the replaceWith and the fadeout fadein and can't get it to work properly.
-2)Also the animate css for the word 'waste' on 2nd html page doesn't work properly like the website shows 
-3)to get to 2nd html page, click the word waste after click all trash
-*/
-
-
-
-/* this is what i thought would work but didn't
-
 
 $('.cigpic').click(function () {
-	$('.cigpic').replaceWith($('.cigarette'));
+	$('.cigpic').html('<h5>Cigarette butts leach chemicals and heavy metals into the environment that are toxic to fresh and salt-water fish. According to the Ocean Conservancy, cigarette butt litter accounts for one in every five items collected during cleanups.</h5>');
+	$('.cigpic').addClass('cigarette');
 });
 
-*/
-
-$('.cigpic').click(function () {
-	$('.cigpic').fadeOut('slow', function(){
-        $('.cigarette').fadeIn('slow');
-    });
-});
 
 $('.plasticpic').click(function () {
-	$('.plasticpic').fadeOut('slow', function(){
-        $('.plastic').fadeIn('slow');
-    });
+	$('.plasticpic').html('<h5>Over 100,000 marine animals die every year from plastic entanglement and ingestion. Plastics cause more than 80% of the negative effects on animals associated with ocean trash.</h5>');
+	$('.plasticpic').addClass('plastic');
 });
 
 $('.foampic').click(function () {
-	$('.foampic').fadeOut('slow');
-	$('.foam').fadeIn('slow');
-	
+	$('.foampic').html('<h5>Styrofoam is a type of plastic and pervasive in the marine environment. They break down into smaller pieces and marine animals easily mistake for food. Over 250 species known to have ingested or entangled in plastic.</h5>');
+	$('.foampic').addClass('foam');
 });
-
-
